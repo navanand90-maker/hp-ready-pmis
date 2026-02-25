@@ -1,0 +1,71 @@
+/* HP-READY PMIS — Global Styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  background: #0e1521;
+  color: #e2e8f0;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e1521;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e3048;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2a4060;
+}
+
+/* Selection */
+::selection {
+  background: rgba(13, 115, 119, 0.3);
+  color: #e2e8f0;
+}
+
+/* Remove default button styles */
+button {
+  font-family: inherit;
+}
+
+/* Table defaults */
+table {
+  border-collapse: collapse;
+}
+
+/* Input/Select defaults for dark theme */
+input, select {
+  font-family: inherit;
+}
+
+select option {
+  background: #151f2e;
+  color: #e2e8f0;
+}
